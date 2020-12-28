@@ -1,0 +1,15 @@
+{
+    "retryAttempts": 3,
+    "waitTime": 5,
+    "trade-aggregator-servers": {
+        "server1" : {
+            "ip-address": "  127.0.0.1",
+            "port":8000
+        }
+    },
+    "order-proxy-service":{
+        "service1":{
+            "name": "chrome"
+        }
+    }
+}
