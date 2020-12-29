@@ -7,9 +7,21 @@
             "port":8000
         }
     },
+    "trade-aggregator-process":{
+        "process1":{
+            "name": "msedge"
+        }
+    },
     "order-proxy-service":{
         "service1":{
             "name": "chrome"
+        }
+    },
+    "trade-aggregator-proxy":{
+        "proxy1":{
+            "name": "chrome",
+            "ip-address": "127.0.0.1",
+            "port":8000
         }
     }
 }
