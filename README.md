@@ -24,18 +24,18 @@ git clone https://github.com/OmarShaker97/DevOops.git
 
 Afterwards, change the values inside the json file named sendgrid
 
-• SENDGRID_API_KEY is the API key that allows you to send emails.
-• sender should contain the email of the sender
-• recipients should contain the email of the recipients
+* SENDGRID_API_KEY is the API key that allows you to send emails.
+* sender should contain the email of the sender
+* recipients should contain the email of the recipients
 
 Then change the values inside the json file named config
 
-• retryAttempts is the number of times that the code will attempt to ping a certain server or process before sending an email.
-• waitTime is the number of seconds that the program will wait before attempting to ping a certain server or process again.
-• trade-aggregator-servers contain the ip-addresses and ports of the trade aggregator servers.
-• trade-aggregator-process contain the process names of the trade aggregator processes.
-• order-proxy-service contain the process names of the order proxy service.
-• trade-aggregator-proxy contain the ip-addresses, ports and process names of the trade aggregator proxy.
+* retryAttempts is the number of times that the code will attempt to ping a certain server or process before sending an email.
+* waitTime is the number of seconds that the program will wait before attempting to ping a certain server or process again.
+* trade-aggregator-servers contain the ip-addresses and ports of the trade aggregator servers.
+* trade-aggregator-process contain the process names of the trade aggregator processes.
+* order-proxy-service contain the process names of the order proxy service.
+* trade-aggregator-proxy contain the ip-addresses, ports and process names of the trade aggregator proxy.
 
 Finally, run this command to run the project
 
