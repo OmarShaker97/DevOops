@@ -1,3 +1,12 @@
 {
-    "SENDGRID_API_KEY": "INSERT SENDGRID API KEY HERE!"
+    "SENDGRID_API_KEY": "YOUR SENDGRID API KEY HERE",
+    "sender": "from@whoever.com",
+    "recipients": {
+        "recipient1" : {
+            "email": "recipient1@gmail.com"
+        },
+        "recipient2": {
+            "email": "recipient1@gmail.com"
+        }
+    }
 }

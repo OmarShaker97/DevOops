@@ -8,12 +8,17 @@ fileOpener = open('sendgrid.json')
 data = json.load(fileOpener)
 fileOpener.close()
 
+recipients = []
+
+for (key, value) in data['recipients'].items():
+    recipients.append(value['email'])
+
 
 def SendMail(sub, content):
 
     message = Mail(
-        from_email='notifications@beltonefinancial.com',
-        to_emails='oshaker@beltonefinancial.com',
+        from_email=data['sender'],
+        to_emails=recipients,
         subject=sub,
         html_content=content)
     try:
